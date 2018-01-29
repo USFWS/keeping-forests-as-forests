@@ -1,0 +1,163 @@
+html {
+  color: $color-text;
+  font-family: $sans-serif;
+}
+
+$baseLineHeight: 1.5; // how large the line height is as a multiple of font size
+$leading: $baseLineHeight * 1rem;
+
+html {
+  color: $color-text;
+  font-size: 15px;
+  line-height: 17.5px;
+  // font-size: $baseFontSize / 16 * 70%;
+  -webkit-font-smoothing: antialiased;
+  // -webkit-text-size-adjust: auto
+  // -moz-text-size-adjust: auto
+  // -ms-text-size-adjust: auto
+  // -o-text-size-adjust: auto
+  // text-size-adjust: auto
+
+  @media (min-width: $break-md) {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  @media (min-width: $break-lg) {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+// Copy & Lists
+
+p {
+  line-height: $leading;
+  margin-top: $leading;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: $leading;
+  margin-bottom: $leading;
+  li {
+    line-height: $leading;
+    margin: $leading/2 0;
+  }
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+blockquote {
+  line-height: $leading;
+  margin-top: $leading;
+  margin-bottom: $leading;
+}
+// Headings
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-accent;
+  font-family: $serif;
+  margin-top: $leading;
+  margin-bottom: $leading;
+  line-height: $leading;
+}
+
+h1:target,
+h2:target,
+h3:target,
+h4:target,
+h5:target,
+h6:target,
+section:target > h2 {
+  border-bottom: 3px solid $color-accent;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 35px;
+
+  @media (min-width: $break-md) {
+    font-size: 37px;
+    line-height: 43px;
+  }
+
+  @media (min-width: $break-lg) {
+    font-size: 44px;
+    line-height: 51px;
+  }
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 30px;
+
+  @media (min-width: $break-md) {
+    font-size: 31px;
+    line-height: 36px;
+  }
+
+  @media (min-width: $break-lg) {
+    font-size: 37px;
+    line-height: 43px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 25px;
+
+  @media (min-width: $break-md) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  @media (min-width: $break-lg) {
+    font-size: 31px;
+    line-height: 36px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 21px;
+
+  @media (min-width: $break-md) {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  @media (min-width: $break-lg) {
+    font-size: 27px;
+    line-height: 32px;
+  }
+}
+
+.container h3 {
+  font-style: italic;
+}
+
+// Tables
+
+table {
+  margin-top: $leading;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+}
+// Code blocks
+
+code {
+  // Forces text to constrain to the line-height. Not ideal, but works.
+  vertical-align: bottom;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "KFAF",
+  "version": "1.0.0",
+  "description": "Website for the Keeping Forests as Forests partnership.",
+  "main": "index.js",
+  "scripts": {
+    "images:hero": "resize _src/images/hero/* -w 1600 -o images/hero",
+    "images:hero:optimize": "resize _src/images/hero/* -w 1600 | imagemin -o images/hero",
+    "watch:sass": "node-sass -w _src/scss/styles.scss css/styles.css",
+    "build:sass": "node-sass --output-style compressed _src/scss/styles.scss | postcss -c build/postcss.config.js -o css/styles.css",
+    "serve": "bundle exec jekyll serve",
+    "prestart": "npm run build:sass",
+    "start": "npm run serve & npm run watch:sass"
+  },
+  "keywords": [
+    "Partnership",
+    "Conservation",
+    "Forest"
+  ],
+  "author": "@r0yhewitt <roy_hewitt@fws.gov>",
+  "license": "SAX-PD",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "cssnano": "^3.10.0",
+    "imagemin-cli": "^3.0.0",
+    "imageoptim-cli": "^1.15.4",
+    "node-sass": "^4.7.2",
+    "postcss-cli": "^4.1.1",
+    "resize-cli": "0.0.4"
+  }
+}
