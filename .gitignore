@@ -1,6 +1,6 @@
 _site
-css
-js
+/css
+/js
 
 .sass-cache
 .jekyll-metadata
