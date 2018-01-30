@@ -1,8 +1,10 @@
 const captionIcon = document.querySelector('.info-icon');
 
-captionIcon.addEventListener('click', function(e) {
-  this.parentElement.classList.toggle('active');
-});
+if (captionIcon) {
+  captionIcon.addEventListener('click', function(e) {
+    this.parentElement.classList.toggle('active');
+  });
+}
 
 // const Nav = require('./Nav');
 //
