@@ -4,8 +4,28 @@ footer {
   background-size: cover;
   background-position: center center;
   color: white;
-  margin-top: 1rem;
+  margin-top: 2rem;
   min-height: 200px;
   padding: 1rem;
   text-shadow: 2px 2px 3px black;
+
+  a {
+    color: white !important;
+  }
+}
+
+.footer-links {
+  list-style: none;
+  text-align: center;
+
+  li {
+    display: inline;
+
+    &::after {
+      content: ' \2022 ';
+    }
+    &:last-child::after {
+      content: '';
+    }
+  }
 }
