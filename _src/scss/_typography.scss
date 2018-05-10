@@ -54,6 +54,21 @@ blockquote {
   margin-top: $leading;
   margin-bottom: $leading;
 }
+
+// Links
+
+a {
+  color: $red;
+
+  &:hover {
+    color: lighten($red, 10);
+  }
+
+  &:active {
+    color: darken($red, 10);
+  }
+}
+
 // Headings
 
 h1,
