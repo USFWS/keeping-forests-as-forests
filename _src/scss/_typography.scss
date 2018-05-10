@@ -7,7 +7,7 @@ $baseLineHeight: 1.5; // how large the line height is as a multiple of font size
 $leading: $baseLineHeight * 1rem;
 
 html {
-  color: $color-text;
+  color: $green-dark;
   font-size: 15px;
   line-height: 17.5px;
   // font-size: $baseFontSize / 16 * 70%;
@@ -62,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-accent;
+  color: $green-dark;
   font-family: $serif;
   margin-top: $leading;
   margin-bottom: $leading;

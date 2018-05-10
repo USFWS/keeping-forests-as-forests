@@ -1,9 +1,5 @@
 .main-nav {
-  background: linear-gradient(
-    to right,
-    $color-accent 0%,
-    darken($color-accent, 10) 100%
-  );
+  background: linear-gradient(to right, $color-accent 0%, $green-dark 100%);
   box-shadow: 2px 2px 3px rgba(25, 25, 25, 0.8);
   display: flex;
   height: $nav-height;
@@ -31,9 +27,13 @@
     text-decoration: none;
     text-shadow: 1px 1px 3px rgba(25, 25, 25, 0.8);
     transition: text-shadow 0.3s;
+  }
+
+  img {
+    width: 85px;
 
     &:hover {
-      text-shadow: 3px 3px 5px rgba(25, 25, 25, 0.8);
+      filter: drop-shadow(3px 3px 5px $color-text);
     }
   }
 }
@@ -48,9 +48,8 @@
 
   li {
     display: flex;
-    flex: 1 1 50px;
-    margin: 0;
-    max-width: 100px;
+    margin: 0 0.5rem;
+    max-width: 200px;
 
     a {
       align-items: center;
