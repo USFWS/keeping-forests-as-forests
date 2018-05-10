@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Key Resources
 hero:
   height: 30vh
   caption: Some caption material goes here.
@@ -11,4 +11,4 @@ hero:
   overlay: linear-gradient(to top left, rgba(25, 25, 25, .1), rgba(5, 5, 5, .8));
 ---
 
-# Blog
+# Key Resources
