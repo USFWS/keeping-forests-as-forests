@@ -2,12 +2,13 @@
 layout: default
 title: About
 hero:
-  caption: Caption material is right here!
+  name: cherokee-national-forest-recreation.jpg
+  alt: Three inflatable river rafts carrying a half dozen rafters pass under a bridge with the U.S. Forest Service logo surrounded by bright green trees.
+  caption: The Ocoee river supports sports such as rafting and kayaking in the Cherokee National Forest, TN. Photo by Lance Cheung, U.S. Department of Agriculture.
   heading:
     content: <h2>Keeping Forests as Forests</h2>
-    justifyContent: flex-end
-    alignItems: flex-end
-  overlay: linear-gradient(to bottom right, rgba(25, 25, 25, .1), rgba(5, 5, 5, .8));
+    justifyContent: flex-start
+    alignItems: flex-start
 ---
 
 # About

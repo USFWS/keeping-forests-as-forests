@@ -1,9 +1,9 @@
 ---
 layout: default
 hero:
-  name: forest-cc.jpg
-  alt: Sun beams cast through a forest canopy near sunset.
-  caption: Caption goes here. Caption goes here. Caption goes here. Caption goes here. 
+  name: longleaf-pine-forest.jpg
+  alt: A forest of sparse pine trees with limited vegetation growing on the ground.
+  caption: Longleaf pine habitat at Camp Blanding in Florida. Photo by Leo Miranda, U.S. Fish and Wildlife Service.
   heading: 
     content: <h2>Keeping Forests as Forests</h2>
 ---
