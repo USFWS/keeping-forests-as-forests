@@ -4,14 +4,18 @@ footer {
   background-size: cover;
   background-position: center center;
   color: white;
-  margin-top: 2rem;
-  min-height: 200px;
   padding: 1rem;
   text-shadow: 2px 2px 3px black;
 
   a {
     color: white !important;
   }
+}
+
+.footer-logo {
+  display: block;
+  height: 100px;
+  margin: 2rem auto 1rem;
 }
 
 .footer-links {

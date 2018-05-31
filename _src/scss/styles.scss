@@ -6,6 +6,8 @@
 @import 'header';
 @import 'hero';
 @import 'footer';
+@import 'figure';
+@import 'contact';
 
 html {
   background: $color-cream;
@@ -16,6 +18,12 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+section,
+.clearfix {
+  overflow: auto;
+  clear: both;
 }
 
 .screen-reader-text {

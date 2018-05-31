@@ -1,0 +1,28 @@
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  display: table;
+
+  img {
+    display: block;
+  }
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
+}
+
+.photo-right {
+  float: right;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.photo-left {
+  float: left;
+  margin: 1rem 1rem 1rem 0;
+}
