@@ -1,0 +1,27 @@
+---
+layout: default
+title: Key Resources
+hero:
+  name: pisgah-national-forest-timber.jpg
+  alt: Two people wearing hard hats take a close look at trees harvested for timber.
+  caption: Patrick Scott, Forest Service Fire Management Officer, and Forest Service Public Affairs Officer look at cold wood at a timber sale on the North Mills Area, Pisgah Ranger District, Pisgah National Forest, NC. Photo by Cecilio Ricardo, U.S. Forest Service.
+  position: 50% 10%
+  heading:
+    content: <h2>Keeping Forests as Forests</h2>
+    alignItems: flex-start
+    justifyContent: flex-end
+---
+
+<h1>Key Resources</h1>
+
+<ul>
+{% for item in site.data.teasers %}
+  <li>
+    {% if item.url contains 'http' %}
+    <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+    {% else %}
+    <a href="{{ site.baseurl }}{{ item.url }}" target="_blank">{{ item.title }}</a>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
