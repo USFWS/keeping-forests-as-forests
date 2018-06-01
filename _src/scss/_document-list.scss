@@ -1,0 +1,29 @@
+.document-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.document-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+}
+
+.document-image {
+  flex-basis: 20%;
+  margin-right: 2rem;
+
+  svg {
+    fill: $green;
+    width: 100%;
+  }
+}
+
+.document-info {
+  flex-basis: 80%;
+
+  h2 {
+    margin-top: 0;
+  }
+}

@@ -14,14 +14,31 @@ hero:
 
 <h1>Key Resources</h1>
 
-<ul>
+<ul class="document-list">
 {% for item in site.data.teasers %}
-  <li>
-    {% if item.url contains 'http' %}
-    <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
-    {% else %}
-    <a href="{{ site.baseurl }}{{ item.url }}" target="_blank">{{ item.title }}</a>
-    {% endif %}
+  <li class="document-list-item">
+    <div class='document-image'>
+      {% if item.image %}
+      <img src='{{ site.baseurl }}/images/document-thumbnails/{{ item.image.src }}' alt='{{ item.image.alt }}' />
+      {% else %}
+      {% include icons/{{ item.type | downcase }}.html %}
+      {% endif %}
+    </div>
+    <div class='document-info'>
+      {% if item.url contains 'http' %}
+      <h2><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h2>
+      {% else %}
+      <h2><a href="{{ site.baseurl }}{{ item.url }}" target="_blank">{{ item.title }}</a></h2>
+      {% endif %}
+      <p>{{ item.teaser }}</p>
+    </div>
   </li>
 {% endfor %}
+</ul>
+
+<h3>Icons from the Noun Project</h3>
+
+<ul>
+  <li>Blog by Chameleon Design</li>
+  <li>documents by Rajive</li>
 </ul>
