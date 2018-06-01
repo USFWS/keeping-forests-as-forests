@@ -3,6 +3,10 @@
   teaser: A summary of the Mapping the South’s Forests of the Future project report.
   type: Document
   url: /pdf/mapping-the-souths-forests-for-the-future-summary-in-brief.pdf
+  image:
+    src: mapping-the-souths-forests-for-the-future-summary-in-brief.jpg
+    alt: An image from the front page of the Mapping the South’s Forests of the Future summary in brief.
+    caption: Mapping the South’s Forests of the Future summary in brief cover.
 - title: 'Mapping the South’s Forests of the Future'
   date: 2018-06-01
   teaser: The Mapping the South’s Forests of the Future project leveraged the existing regional and partnership-driven conservation planning efforts collectively defining the Southeast Conservation Adaptation Strategy, which had compiled several geospatial priorities, and expanded that work to other forest and conservation entities to produce a comprehensive geospatial inventory of planned and prioritized areas of forest protection/retention and restoration.
