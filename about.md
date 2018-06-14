@@ -2,13 +2,12 @@
 layout: default
 title: About
 hero:
-  name: cherokee-national-forest-recreation.jpg
-  alt: Three inflatable river rafts carrying a half dozen rafters pass under a bridge with the U.S. Forest Service logo surrounded by bright green trees.
-  caption: The Ocoee river supports sports such as rafting and kayaking in the Cherokee National Forest, TN. Photo by Lance Cheung, U.S. Department of Agriculture.
+  name: chattahoochee-national-forest-logging.jpg
+  alt: A thinned forest with sun shining through the canopy after trees were collected as timber.
+  caption: Timber sales production in the Chattahoochee National Forest, GA. Photo by Cecilio Ricardo, U.S. Forest Service.
+  link: https://flic.kr/p/Z2pXbq
   heading:
     content: <h2>Keeping Forests as Forests</h2>
-    justifyContent: flex-start
-    alignItems: flex-start
 ---
 
 # About
