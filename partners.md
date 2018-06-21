@@ -28,7 +28,6 @@ hero:
 - [Enviva](http://www.envivabiomass.com/)
 - [Forest Landowners Association](http://www.forestlandowners.com/)
 - [Georgia Forestry Association](http://gfagrow.org/)
-- Knobloch Family Foundation
 - [The Langdale Company](http://www.thelangdalecompany.com/)
 - [Larson and McGowin, Forest Managers and Consultants](http://www.larsonmcgowin.com/)
 - [National Association of Conservation Districts](http://www.nacdnet.org/)
@@ -43,6 +42,7 @@ hero:
 - [Southern Group of State Foresters](http://www.southernforests.org/)
 - [Sustainable Forestry Initiative](http://www.sfiprogram.org/)
 - [The Thorn Company](https://www.wearethorn.org/)
+- [The Trust for Public Land](https://www.tpl.org/)
 - [Tuskegee University](https://www.tuskegee.edu/)
 - [U.S. Endowment for Forestry and Communities](http://www.usendowment.org/)
 - [U.S. Forest Service](https://www.fs.fed.us/)
